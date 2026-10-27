@@ -10,7 +10,9 @@
       "nav": 200000.0,
       "marks": {},
       "snapshots": {},
-      "closed_days": []
+      "closed_days": [],
+      "valuation_stale": [],
+      "valued_at": "2026-10-28T05:45:46.952356+08:00"
     },
     "v2": {
       "cash": 200000.0,
@@ -22,8 +24,10 @@
       "nav": 200000.0,
       "marks": {},
       "snapshots": {},
-      "closed_days": []
+      "closed_days": [],
+      "valuation_stale": [],
+      "valued_at": "2026-10-28T05:45:46.952380+08:00"
     }
   },
-  "status": "已初始化；等待公开数据训练与启动时段"
+  "status": "公开数据准备完成，截至2026-10-27；下个交易日2026-10-28。未产生任何模拟成交。"
 }
