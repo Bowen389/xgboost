@@ -52,7 +52,7 @@ def expected_asof(days):
         raise RuntimeError('No completed trading session')
     return max(candidates)
 
-def update():
+def update_bao():
     folder = ROOT/'data/daily'
     folder.mkdir(parents=True, exist_ok=True)
     with Bao() as b:
@@ -102,3 +102,12 @@ def update():
         if not audit['ready']:
             raise RuntimeError(f'Data coverage blocked: {fresh}/{eligible}; see reports/data_quality.json')
     return asof
+
+
+def update():
+    try:
+        return update_bao()
+    except Exception as exc:
+        print(f'PRIMARY_SOURCE_FAILED {type(exc).__name__}: {exc}; trying public HTTPS',flush=True)
+        from .http_data import update as update_http
+        return update_http(f'{type(exc).__name__}: {exc}')

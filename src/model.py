@@ -47,6 +47,7 @@ def select(ranking, account, positions):
 
 def train(asof, model_month=None):
     from xgboost import XGBClassifier
+    (ROOT/'models').mkdir(parents=True, exist_ok=True)
     master = pd.read_csv(ROOT/'data/master.csv', keep_default_na=False).set_index('code')
     monthly, current = [], []
     for path in sorted((ROOT/'data/daily').glob('*.csv.gz')):
@@ -65,6 +66,8 @@ def train(asof, model_month=None):
         m = f.groupby('month', sort=True).tail(1).copy()
         m['label_end'] = m.date.shift(-1)
         m['future_return'] = m.total_return_index.shift(-1)/m.total_return_index-1
+        consecutive = pd.to_datetime(m.label_end).dt.to_period('M') == pd.to_datetime(m.date).dt.to_period('M') + 1
+        m.loc[~consecutive,'future_return'] = np.nan
         monthly.append(m[m.eligible].assign(code=code))
         if f.date.iloc[-1] == asof and bool(f.eligible.iloc[-1]) and (not info.outDate or info.outDate > asof):
             current.append(f.tail(1).assign(code=code, name=info.code_name))
