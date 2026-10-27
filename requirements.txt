@@ -1,0 +1,5 @@
+baostock==0.9.4
+numpy>=1.26,<3
+pandas>=2.2,<3
+xgboost>=2.1,<4
+requests>=2.32,<3

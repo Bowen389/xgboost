@@ -1,0 +1,29 @@
+{
+  "accounts": {
+    "monthly075": {
+      "cash": 200000.0,
+      "positions": {},
+      "orders": [],
+      "fills": [],
+      "events": [],
+      "cycle": null,
+      "nav": 200000.0,
+      "marks": {},
+      "snapshots": {},
+      "closed_days": []
+    },
+    "v2": {
+      "cash": 200000.0,
+      "positions": {},
+      "orders": [],
+      "fills": [],
+      "events": [],
+      "cycle": null,
+      "nav": 200000.0,
+      "marks": {},
+      "snapshots": {},
+      "closed_days": []
+    }
+  },
+  "status": "已初始化；等待公开数据训练与启动时段"
+}

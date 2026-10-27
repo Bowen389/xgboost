@@ -1,0 +1,22 @@
+{
+  "version": "reconstruction-v1",
+  "start_date": "2026-10-28",
+  "initial_cash": 200000,
+  "data_start": "2023-10-01",
+  "min_listing_days": 120,
+  "min_amount20": 20000000,
+  "min_universe": 2000,
+  "min_coverage": 0.97,
+  "max_quote_age_seconds": 30,
+  "commission": 0.0003,
+  "min_commission": 5,
+  "stamp_tax": 0.0005,
+  "transfer_fee": 0.00001,
+  "slippage": 0.0005,
+  "book_participation": 0.1,
+  "volume_participation": 0.01,
+  "accounts": {
+    "monthly075": {"max_positions": 10, "threshold": 0.75, "train_months": 6, "buffer": 0, "weight": "equal"},
+    "v2": {"max_positions": 20, "threshold": null, "train_months": 12, "buffer": 5, "weight": "inverse_volatility"}
+  }
+}
