@@ -29,6 +29,13 @@ class Execution(unittest.TestCase):
         self.assertLess(a['cash'],200000-1000)
         match(a,o,quote(timestamp=later,volume=110000),later)
         self.assertEqual(o['filled'],100)
+    def test_small_observed_volume_accumulates_without_reuse(self):
+        a=initial_account();order(a,'sh.600000','BUY',1000,'2026-10-28','test');o=a['orders'][0]
+        for i in range(11):
+            t=WHEN+timedelta(seconds=i*10)
+            match(a,o,quote(timestamp=t,volume=100000+i*1000),t)
+        self.assertEqual(o['filled'],100)
+        self.assertAlmostEqual(o['volume_credit'],0.)
     def test_stale_limit_st_missing(self):
         for q in [None,quote(timestamp=WHEN-timedelta(seconds=31)),quote(last=11),quote(name='*ST测试')]:
             a=initial_account();order(a,'sh.600000','BUY',1000,'2026-10-28','test')

@@ -67,7 +67,8 @@ def match(account, o, q, when):
     delta=max(0,q.volume-o['last_volume'])
     o['last_volume'],o['last_stamp']=q.volume,q.timestamp.isoformat()
     remaining=o['quantity']-o['filled']
-    volume_cap=int(delta*CFG['volume_participation'])//100*100
+    o['volume_credit']=o.get('volume_credit',0.)+delta*CFG['volume_participation']
+    volume_cap=int(o['volume_credit'])//100*100
     qty, gross = 0,0.
     levels=q.asks if side=='BUY' else q.bids
     for price,size in levels:
@@ -113,6 +114,7 @@ def match(account, o, q, when):
         if p['quantity']==0:
             del account['positions'][code]
     o['filled']+=qty
+    o['volume_credit']=max(0.,o['volume_credit']-qty)
     o['gross']=cent(o['gross']+gross)
     o['fees']=cent(o['fees']+fees)
     o.pop('blocked_reason',None)
