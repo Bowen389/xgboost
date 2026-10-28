@@ -176,7 +176,7 @@ def session(phase):
     if when>end_dt:
         ledger['status']=f'{phase}任务延迟至{when.isoformat()}，已错过窗口；不补记开盘/收盘成交。'
         save(ledger)
-        return
+        raise RuntimeError(ledger['status'])
     from .quotes import fetch
     folder=ROOT/'reports/quote_audit'
     folder.mkdir(parents=True,exist_ok=True)
