@@ -1,10 +1,18 @@
 {
   "asof": "2026-10-28",
-  "checked_at": "2026-10-29T09:47:44.905730+08:00",
+  "checked_at": "2026-10-29T17:14:22.399979+08:00",
+  "started_at": "2026-10-29T16:36:04.986593+08:00",
   "active": 3194,
-  "fresh": 3194,
-  "coverage": 1.0,
+  "fresh": 3190,
+  "coverage": 0.9987476518472135,
   "failures": [],
-  "source": "BaoStock raw daily adjustflag=3",
+  "excluded_ever_ST": 721,
+  "source": "Sina HTTPS",
+  "primary_error": "RuntimeError: BaoStock login failed: 网络接收错误。",
+  "limitations": [
+    "Current master omits already delisted stocks: survivorship bias in reconstructed training.",
+    "Historical daily ST dates missing: securities with any ST/PT/delisting name in disclosed history are conservatively excluded in full.",
+    "Listing age uses earliest observed trading bar; may conservatively delay eligibility."
+  ],
   "ready": true
 }
