@@ -165,6 +165,18 @@ def session(phase):
         ledger['status']='启动日期未到：'+CFG['start_date']
         save(ledger)
         return
+    key=f'{day}_{phase}'
+    sessions=ledger.setdefault('sessions',{})
+    if sessions.get(key,{}).get('status')=='completed':
+        print(f'{key} 已完成，跳过重复任务。',flush=True)
+        return
+    cutoff='09:40:00' if phase=='open' else '14:59:40'
+    if when>datetime.fromisoformat(day+'T'+cutoff).replace(tzinfo=TZ):
+        message=f'{phase}任务延迟至{when.isoformat()}，已错过窗口；跳过，不补记成交。'
+        sessions[key]=dict(status='skipped',at=when.isoformat(),message=message)
+        save(ledger)
+        print(message,flush=True)
+        return
     market,plan=valid_inputs(day)
     if market is None:
         ledger['status']=f'{day} 非交易日'
@@ -173,10 +185,6 @@ def session(phase):
     start,end=('09:30:05','09:40:00') if phase=='open' else ('14:55:00','14:59:40')
     start_dt=datetime.fromisoformat(day+'T'+start).replace(tzinfo=TZ)
     end_dt=datetime.fromisoformat(day+'T'+end).replace(tzinfo=TZ)
-    if when>end_dt:
-        ledger['status']=f'{phase}任务延迟至{when.isoformat()}，已错过窗口；不补记开盘/收盘成交。'
-        save(ledger)
-        raise RuntimeError(ledger['status'])
     from .quotes import fetch
     folder=ROOT/'reports/quote_audit'
     folder.mkdir(parents=True,exist_ok=True)
@@ -210,6 +218,7 @@ def session(phase):
         if phase=='close':
             navrow=dict(date=day,nav=a['nav'],cash=a['cash'],positions=len(a['positions']),stale=','.join(a.get('valuation_stale',[])))
             a['daily_nav']=[r for r in a.get('daily_nav',[]) if r['date']!=day]+[navrow]
+    sessions[key]=dict(status='completed',at=now().isoformat(),message='执行窗口结束；成交及未成交原因已写入独立账本。')
     ledger['status']=f'{day} {phase}执行窗口结束；成交及未成交原因已写入独立账本。'
     save(ledger)
 

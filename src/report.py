@@ -21,4 +21,7 @@ def export(ledger):
     lines+=['','## 执行状态','',ledger.get('status','尚未启动'),'',
             '数据覆盖与错误：`data_quality.json`；候选与训练截止：`../state/plan.json`。',
             '未成交及原因见各仓 orders.csv；盘口原始快照见 quote_audit/。']
+    lines+=['','## 分时段执行记录','']
+    for key,record in sorted(ledger.get('sessions',{}).items())[-20:]:
+        lines.append(f"- {key}: {record['status']}；{record.get('message','')} ({record.get('at','')})")
     (ROOT/'reports/latest.md').write_text('\n'.join(lines))

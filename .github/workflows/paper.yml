@@ -68,6 +68,8 @@ jobs:
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write('mode='+mode+'\n')
           PY
+      - name: Refresh ledger after queue wait
+        run: git pull --ff-only origin main
       - name: Initialize independent accounts
         run: python -m src.app init
       - name: Probe public five-level quote schema
