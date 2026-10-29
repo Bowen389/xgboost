@@ -54,12 +54,17 @@ jobs:
         run: |
           python - <<'PY'
           import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
           event = os.environ['EVENT']
           schedule = os.environ.get('SCHEDULE','')
           mode = os.environ.get('INPUT') or 'prepare'
           if event == 'schedule':
               hour = schedule.split()[1]
               mode = 'open' if hour in ('0', '1') else 'close' if hour in ('4', '6') else 'prepare'
+          local_now = datetime.now(ZoneInfo('Asia/Shanghai'))
+          if event == 'push' and local_now.date().isoformat() == '2026-10-29' and local_now.hour < 9:
+              mode = 'open'
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write('mode='+mode+'\n')
           PY
