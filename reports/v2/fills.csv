@@ -1,1 +1,26 @@
-status
+order_id,timestamp,quote_time,code,name,side,quantity,price,gross,fee,cash_after,reason,source
+2026-10-29-1,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:12+08:00,sh.603936,博敏电子,BUY,500,14.0,7000.0,5.07,192994.93,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-2,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.002957,科瑞技术,BUY,200,27.8,5560.0,5.06,187429.87,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-3,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:12+08:00,sz.002636,金安国纪,BUY,100,61.34,6134.0,5.06,181290.81,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:14+08:00,sh.603733,仙鹤股份,BUY,200,15.57,3114.0,5.03,178171.78,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-6,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:14+08:00,sh.603050,科林电气,BUY,1100,13.842727272727272,15227.0,5.15,162939.63,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-7,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:14+08:00,sh.603800,洪田股份,BUY,100,37.87,3787.0,5.04,159147.59,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-8,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.001267,汇绿生态,BUY,300,25.12,7536.0,5.08,151606.51,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-9,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.002937,兴瑞科技,BUY,400,20.44,8176.0,5.08,143425.43,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-10,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.003036,泰坦股份,BUY,200,32.01,6402.0,5.06,137018.37,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-11,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:12+08:00,sz.002487,大金重工,BUY,300,30.9,9270.0,5.09,127743.28,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-12,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.000935,四川双马,BUY,900,17.624444444444446,15862.0,5.16,111876.12,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-14,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:14+08:00,sh.600869,远东股份,BUY,500,14.46,7230.0,5.07,104641.05,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-15,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sz.002849,威星智能,BUY,600,14.75,8850.0,5.09,95785.96,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-16,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:15+08:00,sh.605376,博迁新材,BUY,100,79.53,7953.0,5.08,87827.88,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-17,2026-10-29T09:30:17.047335+08:00,2026-10-29T09:30:13+08:00,sh.603738,泰晶科技,BUY,300,25.61,7683.0,5.08,80139.8,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:30:27.789458+08:00,2026-10-29T09:30:26+08:00,sh.603733,仙鹤股份,BUY,200,15.61,3122.0,0.03,77017.77,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-5,2026-10-29T09:30:27.789458+08:00,2026-10-29T09:30:23+08:00,sh.603052,可川科技,BUY,100,39.81,3981.0,5.04,73031.73,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-13,2026-10-29T09:30:27.789458+08:00,2026-10-29T09:30:25+08:00,sh.603505,金石资源,BUY,1300,11.793076923076923,15331.0,5.15,57695.58,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:30:38.527460+08:00,2026-10-29T09:30:35+08:00,sh.603733,仙鹤股份,BUY,100,15.58,1558.0,0.02,56137.56,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-5,2026-10-29T09:30:38.527460+08:00,2026-10-29T09:30:35+08:00,sh.603052,可川科技,BUY,100,39.53,3953.0,0.04,52184.52,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-7,2026-10-29T09:30:38.527460+08:00,2026-10-29T09:30:35+08:00,sh.603800,洪田股份,BUY,100,38.12,3812.0,0.04,48372.48,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:30:49.260750+08:00,2026-10-29T09:30:47+08:00,sh.603733,仙鹤股份,BUY,100,15.55,1555.0,0.01,46817.47,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:30:59.996875+08:00,2026-10-29T09:30:56+08:00,sh.603733,仙鹤股份,BUY,100,15.57,1557.0,0.02,45260.45,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:31:10.732303+08:00,2026-10-29T09:31:08+08:00,sh.603733,仙鹤股份,BUY,200,15.535,3107.0,0.03,42153.42,initial_or_monthly_buy,Tencent public five-level snapshot
+2026-10-29-4,2026-10-29T09:31:32.209426+08:00,2026-10-29T09:31:29+08:00,sh.603733,仙鹤股份,BUY,100,15.51,1551.0,0.02,40602.4,initial_or_monthly_buy,Tencent public five-level snapshot

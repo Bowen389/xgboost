@@ -1,33 +1,1607 @@
 {
   "accounts": {
     "monthly075": {
-      "cash": 200000.0,
-      "positions": {},
-      "orders": [],
-      "fills": [],
+      "cash": 14142.15,
+      "positions": {
+        "sz.003036": {
+          "quantity": 600,
+          "cost": 19202.95,
+          "bought_day": "2026-10-29",
+          "name": "泰坦股份"
+        },
+        "sh.600371": {
+          "quantity": 1900,
+          "cost": 18956.87,
+          "bought_day": "2026-10-29",
+          "name": "万向德农"
+        },
+        "sz.002937": {
+          "quantity": 900,
+          "cost": 18384.7,
+          "bought_day": "2026-10-29",
+          "name": "兴瑞科技"
+        },
+        "sh.603936": {
+          "quantity": 1400,
+          "cost": 19610.08,
+          "bought_day": "2026-10-29",
+          "name": "博敏电子"
+        },
+        "sh.600127": {
+          "quantity": 1900,
+          "cost": 19258.97,
+          "bought_day": "2026-10-29",
+          "name": "金健米业"
+        },
+        "sh.603650": {
+          "quantity": 400,
+          "cost": 18989.89,
+          "bought_day": "2026-10-29",
+          "name": "彤程新材"
+        },
+        "sz.002957": {
+          "quantity": 700,
+          "cost": 19472.03,
+          "bought_day": "2026-10-29",
+          "name": "科瑞技术"
+        },
+        "sh.603124": {
+          "quantity": 200,
+          "cost": 18407.7,
+          "bought_day": "2026-10-29",
+          "name": "江南新材"
+        },
+        "sz.002859": {
+          "quantity": 400,
+          "cost": 17737.5,
+          "bought_day": "2026-10-29",
+          "name": "洁美科技"
+        },
+        "sh.603052": {
+          "quantity": 400,
+          "cost": 15837.16,
+          "bought_day": "2026-10-29",
+          "name": "可川科技"
+        }
+      },
+      "orders": [
+        {
+          "id": "2026-10-29-1",
+          "code": "sz.003036",
+          "side": "BUY",
+          "quantity": 600,
+          "filled": 600,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 19197.0,
+          "fees": 5.95,
+          "last_volume": 94000,
+          "last_stamp": "2026-10-29T09:30:24+08:00",
+          "volume_credit": 92.0
+        },
+        {
+          "id": "2026-10-29-2",
+          "code": "sh.600371",
+          "side": "BUY",
+          "quantity": 1900,
+          "filled": 1900,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 18951.0,
+          "fees": 5.87,
+          "last_volume": 392500,
+          "last_stamp": "2026-10-29T09:30:37+08:00",
+          "volume_credit": 261.0
+        },
+        {
+          "id": "2026-10-29-3",
+          "code": "sz.002937",
+          "side": "BUY",
+          "quantity": 900,
+          "filled": 900,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 18379.0,
+          "fees": 5.7,
+          "last_volume": 125200,
+          "last_stamp": "2026-10-29T09:30:45+08:00",
+          "volume_credit": 110.0
+        },
+        {
+          "id": "2026-10-29-4",
+          "code": "sh.603936",
+          "side": "BUY",
+          "quantity": 1400,
+          "filled": 1400,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 19604.0,
+          "fees": 6.08,
+          "last_volume": 863800,
+          "last_stamp": "2026-10-29T09:30:12+08:00",
+          "volume_credit": 5406.0
+        },
+        {
+          "id": "2026-10-29-5",
+          "code": "sh.600127",
+          "side": "BUY",
+          "quantity": 1900,
+          "filled": 1900,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 19253.0,
+          "fees": 5.97,
+          "last_volume": 1550300,
+          "last_stamp": "2026-10-29T09:30:13+08:00",
+          "volume_credit": 1239.0
+        },
+        {
+          "id": "2026-10-29-6",
+          "code": "sh.603650",
+          "side": "BUY",
+          "quantity": 400,
+          "filled": 400,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 18984.0,
+          "fees": 5.89,
+          "last_volume": 179000,
+          "last_stamp": "2026-10-29T09:30:13+08:00",
+          "volume_credit": 476.0
+        },
+        {
+          "id": "2026-10-29-7",
+          "code": "sz.002957",
+          "side": "BUY",
+          "quantity": 700,
+          "filled": 700,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 19466.0,
+          "fees": 6.03,
+          "last_volume": 230600,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 103.0
+        },
+        {
+          "id": "2026-10-29-8",
+          "code": "sh.603124",
+          "side": "BUY",
+          "quantity": 200,
+          "filled": 200,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 18402.0,
+          "fees": 5.7,
+          "last_volume": 76800,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 486.0
+        },
+        {
+          "id": "2026-10-29-9",
+          "code": "sh.603052",
+          "side": "BUY",
+          "quantity": 400,
+          "filled": 400,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 15832.0,
+          "fees": 5.16,
+          "last_volume": 58600,
+          "last_stamp": "2026-10-29T09:30:56+08:00",
+          "volume_credit": 63.0
+        },
+        {
+          "id": "2026-10-29-10",
+          "code": "sz.002859",
+          "side": "BUY",
+          "quantity": 400,
+          "filled": 400,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 17732.0,
+          "fees": 5.5,
+          "last_volume": 265900,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 1238.0
+        }
+      ],
+      "fills": [
+        {
+          "order_id": "2026-10-29-1",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.003036",
+          "name": "泰坦股份",
+          "side": "BUY",
+          "quantity": 300,
+          "price": 32.01,
+          "gross": 9603.0,
+          "fee": 5.1,
+          "cash_after": 190391.9,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-2",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:13+08:00",
+          "code": "sh.600371",
+          "name": "万向德农",
+          "side": "BUY",
+          "quantity": 800,
+          "price": 9.96875,
+          "gross": 7975.0,
+          "fee": 5.08,
+          "cash_after": 182411.82,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-3",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "side": "BUY",
+          "quantity": 500,
+          "price": 20.44,
+          "gross": 10220.0,
+          "fee": 5.1,
+          "cash_after": 172186.72,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:12+08:00",
+          "code": "sh.603936",
+          "name": "博敏电子",
+          "side": "BUY",
+          "quantity": 1400,
+          "price": 14.002857142857144,
+          "gross": 19604.0,
+          "fee": 6.08,
+          "cash_after": 152576.64,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-5",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:13+08:00",
+          "code": "sh.600127",
+          "name": "金健米业",
+          "side": "BUY",
+          "quantity": 1900,
+          "price": 10.133157894736842,
+          "gross": 19253.0,
+          "fee": 5.97,
+          "cash_after": 133317.67,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-6",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:13+08:00",
+          "code": "sh.603650",
+          "name": "彤程新材",
+          "side": "BUY",
+          "quantity": 400,
+          "price": 47.46,
+          "gross": 18984.0,
+          "fee": 5.89,
+          "cash_after": 114327.78,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-7",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002957",
+          "name": "科瑞技术",
+          "side": "BUY",
+          "quantity": 700,
+          "price": 27.80857142857143,
+          "gross": 19466.0,
+          "fee": 6.03,
+          "cash_after": 94855.75,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-8",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sh.603124",
+          "name": "江南新材",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 92.01,
+          "gross": 18402.0,
+          "fee": 5.7,
+          "cash_after": 76448.05,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-10",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002859",
+          "name": "洁美科技",
+          "side": "BUY",
+          "quantity": 400,
+          "price": 44.33,
+          "gross": 17732.0,
+          "fee": 5.5,
+          "cash_after": 58710.55,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-1",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:24+08:00",
+          "code": "sz.003036",
+          "name": "泰坦股份",
+          "side": "BUY",
+          "quantity": 300,
+          "price": 31.98,
+          "gross": 9594.0,
+          "fee": 0.85,
+          "cash_after": 49115.7,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-2",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:25+08:00",
+          "code": "sh.600371",
+          "name": "万向德农",
+          "side": "BUY",
+          "quantity": 1000,
+          "price": 9.98,
+          "gross": 9980.0,
+          "fee": 0.49,
+          "cash_after": 39135.21,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-3",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:24+08:00",
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 20.42,
+          "gross": 2042.0,
+          "fee": 0.02,
+          "cash_after": 37093.19,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-9",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:23+08:00",
+          "code": "sh.603052",
+          "name": "可川科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 39.81,
+          "gross": 3981.0,
+          "fee": 5.04,
+          "cash_after": 33107.15,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-2",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:37+08:00",
+          "code": "sh.600371",
+          "name": "万向德农",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 9.96,
+          "gross": 996.0,
+          "fee": 0.3,
+          "cash_after": 32110.85,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-3",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:36+08:00",
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 20.395,
+          "gross": 4079.0,
+          "fee": 0.04,
+          "cash_after": 28031.81,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-9",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:35+08:00",
+          "code": "sh.603052",
+          "name": "可川科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 39.53,
+          "gross": 3953.0,
+          "fee": 0.04,
+          "cash_after": 24078.77,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-3",
+          "timestamp": "2026-10-29T09:30:49.260750+08:00",
+          "quote_time": "2026-10-29T09:30:45+08:00",
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 20.38,
+          "gross": 2038.0,
+          "fee": 0.54,
+          "cash_after": 22040.23,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-9",
+          "timestamp": "2026-10-29T09:30:59.996875+08:00",
+          "quote_time": "2026-10-29T09:30:56+08:00",
+          "code": "sh.603052",
+          "name": "可川科技",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 39.49,
+          "gross": 7898.0,
+          "fee": 0.08,
+          "cash_after": 14142.15,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        }
+      ],
       "events": [],
-      "cycle": null,
-      "nav": 200000.0,
-      "marks": {},
+      "cycle": "2026-10",
+      "nav": 198384.15,
+      "marks": {
+        "sz.003036": {
+          "price": 32.07,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.600371": {
+          "price": 10.14,
+          "timestamp": "2026-10-29T09:39:55+08:00"
+        },
+        "sz.002937": {
+          "price": 20.25,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.603936": {
+          "price": 13.69,
+          "timestamp": "2026-10-29T09:39:54+08:00"
+        },
+        "sh.600127": {
+          "price": 10.14,
+          "timestamp": "2026-10-29T09:39:55+08:00"
+        },
+        "sh.603650": {
+          "price": 46.47,
+          "timestamp": "2026-10-29T09:39:55+08:00"
+        },
+        "sz.002957": {
+          "price": 27.25,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.603124": {
+          "price": 89.89,
+          "timestamp": "2026-10-29T09:39:54+08:00"
+        },
+        "sz.002859": {
+          "price": 44.46,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.603052": {
+          "price": 39.13,
+          "timestamp": "2026-10-29T09:39:53+08:00"
+        }
+      },
       "snapshots": {},
       "closed_days": [],
       "valuation_stale": [],
-      "valued_at": "2026-10-29T00:45:45.720320+08:00"
+      "valued_at": "2026-10-29T09:39:58.914061+08:00",
+      "target_budgets": {
+        "sz.003036": {
+          "code": "sz.003036",
+          "name": "泰坦股份",
+          "score": 0.9001637697219849,
+          "vol60": 0.05193212057111113,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.600371": {
+          "code": "sh.600371",
+          "name": "万向德农",
+          "score": 0.8976659178733826,
+          "vol60": 0.06309130283904178,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sz.002937": {
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "score": 0.8970253467559814,
+          "vol60": 0.04215229037783329,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.603936": {
+          "code": "sh.603936",
+          "name": "博敏电子",
+          "score": 0.8947726488113403,
+          "vol60": 0.05195615073361341,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.600127": {
+          "code": "sh.600127",
+          "name": "金健米业",
+          "score": 0.8893483877182007,
+          "vol60": 0.06558534866004669,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.603650": {
+          "code": "sh.603650",
+          "name": "彤程新材",
+          "score": 0.8875799775123596,
+          "vol60": 0.038307900315288766,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sz.002957": {
+          "code": "sz.002957",
+          "name": "科瑞技术",
+          "score": 0.8862677812576294,
+          "vol60": 0.050610723284862755,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.603124": {
+          "code": "sh.603124",
+          "name": "江南新材",
+          "score": 0.8844926357269287,
+          "vol60": 0.05274226460567278,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sh.603052": {
+          "code": "sh.603052",
+          "name": "可川科技",
+          "score": 0.8839913606643677,
+          "vol60": 0.04276220833292163,
+          "weight": 0.1,
+          "budget": 19900.0
+        },
+        "sz.002859": {
+          "code": "sz.002859",
+          "name": "洁美科技",
+          "score": 0.8830337524414062,
+          "vol60": 0.04348987542529113,
+          "weight": 0.1,
+          "budget": 19900.0
+        }
+      },
+      "buy_day": "2026-10-29"
     },
     "v2": {
-      "cash": 200000.0,
-      "positions": {},
-      "orders": [],
-      "fills": [],
+      "cash": 40602.4,
+      "positions": {
+        "sh.603936": {
+          "quantity": 500,
+          "cost": 7005.07,
+          "bought_day": "2026-10-29",
+          "name": "博敏电子"
+        },
+        "sz.002957": {
+          "quantity": 200,
+          "cost": 5565.06,
+          "bought_day": "2026-10-29",
+          "name": "科瑞技术"
+        },
+        "sz.002636": {
+          "quantity": 100,
+          "cost": 6139.06,
+          "bought_day": "2026-10-29",
+          "name": "金安国纪"
+        },
+        "sh.603733": {
+          "quantity": 1000,
+          "cost": 15569.160000000002,
+          "bought_day": "2026-10-29",
+          "name": "仙鹤股份"
+        },
+        "sh.603050": {
+          "quantity": 1100,
+          "cost": 15232.15,
+          "bought_day": "2026-10-29",
+          "name": "科林电气"
+        },
+        "sh.603800": {
+          "quantity": 200,
+          "cost": 7604.08,
+          "bought_day": "2026-10-29",
+          "name": "洪田股份"
+        },
+        "sz.001267": {
+          "quantity": 300,
+          "cost": 7541.08,
+          "bought_day": "2026-10-29",
+          "name": "汇绿生态"
+        },
+        "sz.002937": {
+          "quantity": 400,
+          "cost": 8181.08,
+          "bought_day": "2026-10-29",
+          "name": "兴瑞科技"
+        },
+        "sz.003036": {
+          "quantity": 200,
+          "cost": 6407.06,
+          "bought_day": "2026-10-29",
+          "name": "泰坦股份"
+        },
+        "sz.002487": {
+          "quantity": 300,
+          "cost": 9275.09,
+          "bought_day": "2026-10-29",
+          "name": "大金重工"
+        },
+        "sz.000935": {
+          "quantity": 900,
+          "cost": 15867.16,
+          "bought_day": "2026-10-29",
+          "name": "四川双马"
+        },
+        "sh.600869": {
+          "quantity": 500,
+          "cost": 7235.07,
+          "bought_day": "2026-10-29",
+          "name": "远东股份"
+        },
+        "sz.002849": {
+          "quantity": 600,
+          "cost": 8855.09,
+          "bought_day": "2026-10-29",
+          "name": "威星智能"
+        },
+        "sh.605376": {
+          "quantity": 100,
+          "cost": 7958.08,
+          "bought_day": "2026-10-29",
+          "name": "博迁新材"
+        },
+        "sh.603738": {
+          "quantity": 300,
+          "cost": 7688.08,
+          "bought_day": "2026-10-29",
+          "name": "泰晶科技"
+        },
+        "sh.603052": {
+          "quantity": 200,
+          "cost": 7939.08,
+          "bought_day": "2026-10-29",
+          "name": "可川科技"
+        },
+        "sh.603505": {
+          "quantity": 1300,
+          "cost": 15336.15,
+          "bought_day": "2026-10-29",
+          "name": "金石资源"
+        }
+      },
+      "orders": [
+        {
+          "id": "2026-10-29-1",
+          "code": "sh.603936",
+          "side": "BUY",
+          "quantity": 500,
+          "filled": 500,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7000.0,
+          "fees": 5.07,
+          "last_volume": 863800,
+          "last_stamp": "2026-10-29T09:30:12+08:00",
+          "volume_credit": 6306.0
+        },
+        {
+          "id": "2026-10-29-2",
+          "code": "sz.002957",
+          "side": "BUY",
+          "quantity": 200,
+          "filled": 200,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 5560.0,
+          "fees": 5.06,
+          "last_volume": 230600,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 603.0
+        },
+        {
+          "id": "2026-10-29-3",
+          "code": "sz.002636",
+          "side": "BUY",
+          "quantity": 100,
+          "filled": 100,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 6134.0,
+          "fees": 5.06,
+          "last_volume": 8847100,
+          "last_stamp": "2026-10-29T09:30:12+08:00",
+          "volume_credit": 26602.0
+        },
+        {
+          "id": "2026-10-29-4",
+          "code": "sh.603733",
+          "side": "BUY",
+          "quantity": 1000,
+          "filled": 1000,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 15564.0,
+          "fees": 5.16,
+          "last_volume": 123200,
+          "last_stamp": "2026-10-29T09:31:29+08:00",
+          "volume_credit": 70.0
+        },
+        {
+          "id": "2026-10-29-5",
+          "code": "sh.603052",
+          "side": "BUY",
+          "quantity": 200,
+          "filled": 200,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7934.0,
+          "fees": 5.08,
+          "last_volume": 39300,
+          "last_stamp": "2026-10-29T09:30:35+08:00",
+          "volume_credit": 70.0
+        },
+        {
+          "id": "2026-10-29-6",
+          "code": "sh.603050",
+          "side": "BUY",
+          "quantity": 1100,
+          "filled": 1100,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 15227.0,
+          "fees": 5.15,
+          "last_volume": 311400,
+          "last_stamp": "2026-10-29T09:30:14+08:00",
+          "volume_credit": 1277.0
+        },
+        {
+          "id": "2026-10-29-7",
+          "code": "sh.603800",
+          "side": "BUY",
+          "quantity": 200,
+          "filled": 200,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7599.0,
+          "fees": 5.08,
+          "last_volume": 62800,
+          "last_stamp": "2026-10-29T09:30:35+08:00",
+          "volume_credit": 313.0
+        },
+        {
+          "id": "2026-10-29-8",
+          "code": "sz.001267",
+          "side": "BUY",
+          "quantity": 300,
+          "filled": 300,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7536.0,
+          "fees": 5.08,
+          "last_volume": 294000,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 1813.0
+        },
+        {
+          "id": "2026-10-29-9",
+          "code": "sz.002937",
+          "side": "BUY",
+          "quantity": 400,
+          "filled": 400,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 8176.0,
+          "fees": 5.08,
+          "last_volume": 78100,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 139.0
+        },
+        {
+          "id": "2026-10-29-10",
+          "code": "sz.003036",
+          "side": "BUY",
+          "quantity": 200,
+          "filled": 200,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 6402.0,
+          "fees": 5.06,
+          "last_volume": 64100,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 193.0
+        },
+        {
+          "id": "2026-10-29-11",
+          "code": "sz.002487",
+          "side": "BUY",
+          "quantity": 300,
+          "filled": 300,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 9270.0,
+          "fees": 5.09,
+          "last_volume": 259200,
+          "last_stamp": "2026-10-29T09:30:12+08:00",
+          "volume_credit": 521.0
+        },
+        {
+          "id": "2026-10-29-12",
+          "code": "sz.000935",
+          "side": "BUY",
+          "quantity": 900,
+          "filled": 900,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 15862.0,
+          "fees": 5.16,
+          "last_volume": 156000,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 271.0
+        },
+        {
+          "id": "2026-10-29-13",
+          "code": "sh.603505",
+          "side": "BUY",
+          "quantity": 1300,
+          "filled": 1300,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 15331.0,
+          "fees": 5.15,
+          "last_volume": 1442100,
+          "last_stamp": "2026-10-29T09:30:25+08:00",
+          "volume_credit": 6086.0
+        },
+        {
+          "id": "2026-10-29-14",
+          "code": "sh.600869",
+          "side": "BUY",
+          "quantity": 500,
+          "filled": 500,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7230.0,
+          "fees": 5.07,
+          "last_volume": 3614400,
+          "last_stamp": "2026-10-29T09:30:14+08:00",
+          "volume_credit": 5640.0
+        },
+        {
+          "id": "2026-10-29-15",
+          "code": "sz.002849",
+          "side": "BUY",
+          "quantity": 600,
+          "filled": 600,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 8850.0,
+          "fees": 5.09,
+          "last_volume": 134800,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 55.0
+        },
+        {
+          "id": "2026-10-29-16",
+          "code": "sh.605376",
+          "side": "BUY",
+          "quantity": 100,
+          "filled": 100,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7953.0,
+          "fees": 5.08,
+          "last_volume": 206800,
+          "last_stamp": "2026-10-29T09:30:15+08:00",
+          "volume_credit": 1218.0
+        },
+        {
+          "id": "2026-10-29-17",
+          "code": "sh.603738",
+          "side": "BUY",
+          "quantity": 300,
+          "filled": 300,
+          "status": "FILLED",
+          "day": "2026-10-29",
+          "reason": "initial_or_monthly_buy",
+          "gross": 7683.0,
+          "fees": 5.08,
+          "last_volume": 269500,
+          "last_stamp": "2026-10-29T09:30:13+08:00",
+          "volume_credit": 757.0
+        }
+      ],
+      "fills": [
+        {
+          "order_id": "2026-10-29-1",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:12+08:00",
+          "code": "sh.603936",
+          "name": "博敏电子",
+          "side": "BUY",
+          "quantity": 500,
+          "price": 14.0,
+          "gross": 7000.0,
+          "fee": 5.07,
+          "cash_after": 192994.93,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-2",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002957",
+          "name": "科瑞技术",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 27.8,
+          "gross": 5560.0,
+          "fee": 5.06,
+          "cash_after": 187429.87,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-3",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:12+08:00",
+          "code": "sz.002636",
+          "name": "金安国纪",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 61.34,
+          "gross": 6134.0,
+          "fee": 5.06,
+          "cash_after": 181290.81,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:14+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 15.57,
+          "gross": 3114.0,
+          "fee": 5.03,
+          "cash_after": 178171.78,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-6",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:14+08:00",
+          "code": "sh.603050",
+          "name": "科林电气",
+          "side": "BUY",
+          "quantity": 1100,
+          "price": 13.842727272727272,
+          "gross": 15227.0,
+          "fee": 5.15,
+          "cash_after": 162939.63,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-7",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:14+08:00",
+          "code": "sh.603800",
+          "name": "洪田股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 37.87,
+          "gross": 3787.0,
+          "fee": 5.04,
+          "cash_after": 159147.59,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-8",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.001267",
+          "name": "汇绿生态",
+          "side": "BUY",
+          "quantity": 300,
+          "price": 25.12,
+          "gross": 7536.0,
+          "fee": 5.08,
+          "cash_after": 151606.51,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-9",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "side": "BUY",
+          "quantity": 400,
+          "price": 20.44,
+          "gross": 8176.0,
+          "fee": 5.08,
+          "cash_after": 143425.43,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-10",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.003036",
+          "name": "泰坦股份",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 32.01,
+          "gross": 6402.0,
+          "fee": 5.06,
+          "cash_after": 137018.37,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-11",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:12+08:00",
+          "code": "sz.002487",
+          "name": "大金重工",
+          "side": "BUY",
+          "quantity": 300,
+          "price": 30.9,
+          "gross": 9270.0,
+          "fee": 5.09,
+          "cash_after": 127743.28,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-12",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.000935",
+          "name": "四川双马",
+          "side": "BUY",
+          "quantity": 900,
+          "price": 17.624444444444446,
+          "gross": 15862.0,
+          "fee": 5.16,
+          "cash_after": 111876.12,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-14",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:14+08:00",
+          "code": "sh.600869",
+          "name": "远东股份",
+          "side": "BUY",
+          "quantity": 500,
+          "price": 14.46,
+          "gross": 7230.0,
+          "fee": 5.07,
+          "cash_after": 104641.05,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-15",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sz.002849",
+          "name": "威星智能",
+          "side": "BUY",
+          "quantity": 600,
+          "price": 14.75,
+          "gross": 8850.0,
+          "fee": 5.09,
+          "cash_after": 95785.96,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-16",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:15+08:00",
+          "code": "sh.605376",
+          "name": "博迁新材",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 79.53,
+          "gross": 7953.0,
+          "fee": 5.08,
+          "cash_after": 87827.88,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-17",
+          "timestamp": "2026-10-29T09:30:17.047335+08:00",
+          "quote_time": "2026-10-29T09:30:13+08:00",
+          "code": "sh.603738",
+          "name": "泰晶科技",
+          "side": "BUY",
+          "quantity": 300,
+          "price": 25.61,
+          "gross": 7683.0,
+          "fee": 5.08,
+          "cash_after": 80139.8,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:26+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 15.61,
+          "gross": 3122.0,
+          "fee": 0.03,
+          "cash_after": 77017.77,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-5",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:23+08:00",
+          "code": "sh.603052",
+          "name": "可川科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 39.81,
+          "gross": 3981.0,
+          "fee": 5.04,
+          "cash_after": 73031.73,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-13",
+          "timestamp": "2026-10-29T09:30:27.789458+08:00",
+          "quote_time": "2026-10-29T09:30:25+08:00",
+          "code": "sh.603505",
+          "name": "金石资源",
+          "side": "BUY",
+          "quantity": 1300,
+          "price": 11.793076923076923,
+          "gross": 15331.0,
+          "fee": 5.15,
+          "cash_after": 57695.58,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:35+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 15.58,
+          "gross": 1558.0,
+          "fee": 0.02,
+          "cash_after": 56137.56,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-5",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:35+08:00",
+          "code": "sh.603052",
+          "name": "可川科技",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 39.53,
+          "gross": 3953.0,
+          "fee": 0.04,
+          "cash_after": 52184.52,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-7",
+          "timestamp": "2026-10-29T09:30:38.527460+08:00",
+          "quote_time": "2026-10-29T09:30:35+08:00",
+          "code": "sh.603800",
+          "name": "洪田股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 38.12,
+          "gross": 3812.0,
+          "fee": 0.04,
+          "cash_after": 48372.48,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:49.260750+08:00",
+          "quote_time": "2026-10-29T09:30:47+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 15.55,
+          "gross": 1555.0,
+          "fee": 0.01,
+          "cash_after": 46817.47,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:30:59.996875+08:00",
+          "quote_time": "2026-10-29T09:30:56+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 15.57,
+          "gross": 1557.0,
+          "fee": 0.02,
+          "cash_after": 45260.45,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:31:10.732303+08:00",
+          "quote_time": "2026-10-29T09:31:08+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 200,
+          "price": 15.535,
+          "gross": 3107.0,
+          "fee": 0.03,
+          "cash_after": 42153.42,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        },
+        {
+          "order_id": "2026-10-29-4",
+          "timestamp": "2026-10-29T09:31:32.209426+08:00",
+          "quote_time": "2026-10-29T09:31:29+08:00",
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "side": "BUY",
+          "quantity": 100,
+          "price": 15.51,
+          "gross": 1551.0,
+          "fee": 0.02,
+          "cash_after": 40602.4,
+          "reason": "initial_or_monthly_buy",
+          "source": "Tencent public five-level snapshot"
+        }
+      ],
       "events": [],
-      "cycle": null,
-      "nav": 200000.0,
-      "marks": {},
+      "cycle": "2026-10",
+      "nav": 198528.4,
+      "marks": {
+        "sh.603936": {
+          "price": 13.69,
+          "timestamp": "2026-10-29T09:39:54+08:00"
+        },
+        "sz.002957": {
+          "price": 27.25,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sz.002636": {
+          "price": 61.0,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.603733": {
+          "price": 15.38,
+          "timestamp": "2026-10-29T09:39:56+08:00"
+        },
+        "sh.603050": {
+          "price": 13.49,
+          "timestamp": "2026-10-29T09:39:56+08:00"
+        },
+        "sh.603800": {
+          "price": 37.99,
+          "timestamp": "2026-10-29T09:39:56+08:00"
+        },
+        "sz.001267": {
+          "price": 25.16,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sz.002937": {
+          "price": 20.25,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sz.003036": {
+          "price": 32.07,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sz.002487": {
+          "price": 30.98,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sz.000935": {
+          "price": 17.38,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.600869": {
+          "price": 14.71,
+          "timestamp": "2026-10-29T09:39:56+08:00"
+        },
+        "sz.002849": {
+          "price": 14.58,
+          "timestamp": "2026-10-29T09:39:57+08:00"
+        },
+        "sh.605376": {
+          "price": 77.51,
+          "timestamp": "2026-10-29T09:39:54+08:00"
+        },
+        "sh.603738": {
+          "price": 25.35,
+          "timestamp": "2026-10-29T09:39:55+08:00"
+        },
+        "sh.603052": {
+          "price": 39.13,
+          "timestamp": "2026-10-29T09:39:53+08:00"
+        },
+        "sh.603505": {
+          "price": 11.87,
+          "timestamp": "2026-10-29T09:39:55+08:00"
+        }
+      },
       "snapshots": {},
       "closed_days": [],
       "valuation_stale": [],
-      "valued_at": "2026-10-29T00:45:45.720344+08:00"
+      "valued_at": "2026-10-29T09:39:58.914061+08:00",
+      "target_budgets": {
+        "sz.001389": {
+          "code": "sz.001389",
+          "name": "广合科技",
+          "score": 0.9193761944770813,
+          "vol60": 0.0491706904755991,
+          "weight": 0.040897277280018955,
+          "budget": 8138.5581787237725
+        },
+        "sh.603936": {
+          "code": "sh.603936",
+          "name": "博敏电子",
+          "score": 0.919145405292511,
+          "vol60": 0.05195615073361341,
+          "weight": 0.038704702600871596,
+          "budget": 7702.235817573448
+        },
+        "sz.002957": {
+          "code": "sz.002957",
+          "name": "科瑞技术",
+          "score": 0.8944622874259949,
+          "vol60": 0.050610723284862755,
+          "weight": 0.03973362228221743,
+          "budget": 7906.990834161269
+        },
+        "sh.603124": {
+          "code": "sh.603124",
+          "name": "江南新材",
+          "score": 0.8932238221168518,
+          "vol60": 0.05274226460567278,
+          "weight": 0.038127816040236406,
+          "budget": 7587.435392007045
+        },
+        "sz.002636": {
+          "code": "sz.002636",
+          "name": "金安国纪",
+          "score": 0.887341320514679,
+          "vol60": 0.05660171287918194,
+          "weight": 0.035528030162673536,
+          "budget": 7070.078002372034
+        },
+        "sh.603733": {
+          "code": "sh.603733",
+          "name": "仙鹤股份",
+          "score": 0.8792492747306824,
+          "vol60": 0.0228046688308439,
+          "weight": 0.08135061621609846,
+          "budget": 16188.772627003593
+        },
+        "sh.603052": {
+          "code": "sh.603052",
+          "name": "可川科技",
+          "score": 0.8787215352058411,
+          "vol60": 0.04276220833292163,
+          "weight": 0.04702627485406037,
+          "budget": 9358.228695958014
+        },
+        "sh.603050": {
+          "code": "sh.603050",
+          "name": "科林电气",
+          "score": 0.8742471933364868,
+          "vol60": 0.017189486700636428,
+          "weight": 0.08135061621609846,
+          "budget": 16188.772627003593
+        },
+        "sh.603256": {
+          "code": "sh.603256",
+          "name": "宏和科技",
+          "score": 0.8733236193656921,
+          "vol60": 0.048603599671261315,
+          "weight": 0.04137445325103382,
+          "budget": 8233.51619695573
+        },
+        "sh.603800": {
+          "code": "sh.603800",
+          "name": "洪田股份",
+          "score": 0.8727760314941406,
+          "vol60": 0.04446809445646062,
+          "weight": 0.045222251751747815,
+          "budget": 8999.228098597816
+        },
+        "sz.001267": {
+          "code": "sz.001267",
+          "name": "汇绿生态",
+          "score": 0.8726192712783813,
+          "vol60": 0.05014478947025131,
+          "weight": 0.04010281793332824,
+          "budget": 7980.46076873232
+        },
+        "sz.002937": {
+          "code": "sz.002937",
+          "name": "兴瑞科技",
+          "score": 0.8725424408912659,
+          "vol60": 0.04215229037783329,
+          "weight": 0.047706716394420756,
+          "budget": 9493.63656248973
+        },
+        "sz.003036": {
+          "code": "sz.003036",
+          "name": "泰坦股份",
+          "score": 0.8722260594367981,
+          "vol60": 0.05193212057111113,
+          "weight": 0.03872261213899314,
+          "budget": 7705.799815659635
+        },
+        "sz.002487": {
+          "code": "sz.002487",
+          "name": "大金重工",
+          "score": 0.8704543113708496,
+          "vol60": 0.0429240808570504,
+          "weight": 0.04684893240061679,
+          "budget": 9322.937547722742
+        },
+        "sz.000935": {
+          "code": "sz.000935",
+          "name": "四川双马",
+          "score": 0.8679726719856262,
+          "vol60": 0.022629863223364667,
+          "weight": 0.08135061621609846,
+          "budget": 16188.772627003593
+        },
+        "sh.603505": {
+          "code": "sh.603505",
+          "name": "金石资源",
+          "score": 0.8668352365493774,
+          "vol60": 0.017328827947128627,
+          "weight": 0.08135061621609846,
+          "budget": 16188.772627003593
+        },
+        "sh.600869": {
+          "code": "sh.600869",
+          "name": "远东股份",
+          "score": 0.8663185834884644,
+          "vol60": 0.05337358625851285,
+          "weight": 0.03767682674892071,
+          "budget": 7497.688523035221
+        },
+        "sz.002849": {
+          "code": "sz.002849",
+          "name": "威星智能",
+          "score": 0.8644286394119263,
+          "vol60": 0.04407357487678081,
+          "weight": 0.045627053581487144,
+          "budget": 9079.783662715941
+        },
+        "sh.605376": {
+          "code": "sh.605376",
+          "name": "博迁新材",
+          "score": 0.86310213804245,
+          "vol60": 0.041675438299970315,
+          "weight": 0.04825257860412223,
+          "budget": 9602.263142220323
+        },
+        "sh.603738": {
+          "code": "sh.603738",
+          "name": "泰晶科技",
+          "score": 0.8630907535552979,
+          "vol60": 0.04671670984885054,
+          "weight": 0.043045569110857294,
+          "budget": 8566.068253060601
+        }
+      },
+      "buy_day": "2026-10-29"
     }
   },
-  "status": "公开数据准备完成，截至2026-10-28；下个交易日2026-10-29。未产生任何模拟成交。"
+  "status": "2026-10-29 open执行窗口结束；成交及未成交原因已写入独立账本。"
 }
