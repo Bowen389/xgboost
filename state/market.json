@@ -1,8 +1,7 @@
 {
-  "asof": "2026-11-04",
-  "next_session": "2026-11-05",
+  "asof": "2026-11-05",
+  "next_session": "2026-11-06",
   "calendar": [
-    "2026-06-08",
     "2026-06-09",
     "2026-06-10",
     "2026-06-11",
@@ -131,11 +130,12 @@
     "2026-12-10",
     "2026-12-11",
     "2026-12-14",
-    "2026-12-15"
+    "2026-12-15",
+    "2026-12-16"
   ],
   "quality": {
-    "asof": "2026-11-04",
-    "checked_at": "2026-11-05T10:20:49.722355+08:00",
+    "asof": "2026-11-05",
+    "checked_at": "2026-11-06T02:42:13.536087+08:00",
     "active": 3195,
     "fresh": 3195,
     "coverage": 1.0,
@@ -145,337 +145,337 @@
   },
   "symbols": {
     "sh.600127": {
-      "date": "2026-11-04",
-      "close": 10.5,
-      "preclose": 10.1,
+      "date": "2026-11-05",
+      "close": 10.47,
+      "preclose": 10.5,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.600177": {
-      "date": "2026-11-04",
-      "close": 8.38,
-      "preclose": 8.55,
+      "date": "2026-11-05",
+      "close": 8.22,
+      "preclose": 8.38,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.600206": {
-      "date": "2026-11-04",
-      "close": 34.9,
-      "preclose": 31.73,
+      "date": "2026-11-05",
+      "close": 38.39,
+      "preclose": 34.9,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": true
     },
     "sh.600330": {
-      "date": "2026-11-04",
-      "close": 16.81,
-      "preclose": 15.75,
+      "date": "2026-11-05",
+      "close": 17.14,
+      "preclose": 16.81,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.600368": {
-      "date": "2026-11-04",
-      "close": 4.21,
-      "preclose": 4.19,
+      "date": "2026-11-05",
+      "close": 4.16,
+      "preclose": 4.21,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.600371": {
-      "date": "2026-11-04",
-      "close": 10.85,
-      "preclose": 9.86,
+      "date": "2026-11-05",
+      "close": 11.26,
+      "preclose": 10.85,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sh.600641": {
-      "date": "2026-11-04",
-      "close": 28.2,
-      "preclose": 25.64,
+      "date": "2026-11-05",
+      "close": 31.02,
+      "preclose": 28.2,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": true
     },
     "sh.600869": {
-      "date": "2026-11-04",
-      "close": 13.97,
-      "preclose": 13.22,
+      "date": "2026-11-05",
+      "close": 14.29,
+      "preclose": 13.97,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.601005": {
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "close": 1.17,
-      "preclose": 1.15,
+      "preclose": 1.17,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.601669": {
-      "date": "2026-11-04",
-      "close": 4.57,
-      "preclose": 4.54,
+      "date": "2026-11-05",
+      "close": 4.51,
+      "preclose": 4.57,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603050": {
-      "date": "2026-11-04",
-      "close": 13.62,
-      "preclose": 13.48,
+      "date": "2026-11-05",
+      "close": 14.01,
+      "preclose": 13.62,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603052": {
-      "date": "2026-11-04",
-      "close": 36.21,
-      "preclose": 34.42,
+      "date": "2026-11-05",
+      "close": 37.7,
+      "preclose": 36.21,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603067": {
-      "date": "2026-11-04",
-      "close": 23.8,
-      "preclose": 21.64,
+      "date": "2026-11-05",
+      "close": 23.85,
+      "preclose": 23.8,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sh.603083": {
-      "date": "2026-11-04",
-      "close": 121.58,
-      "preclose": 114.6,
+      "date": "2026-11-05",
+      "close": 116.45,
+      "preclose": 121.58,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603124": {
-      "date": "2026-11-04",
-      "close": 84.65,
-      "preclose": 78.63,
+      "date": "2026-11-05",
+      "close": 85.1,
+      "preclose": 84.65,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603186": {
-      "date": "2026-11-04",
-      "close": 145.22,
-      "preclose": 132.02,
+      "date": "2026-11-05",
+      "close": 148.13,
+      "preclose": 145.22,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sh.603213": {
-      "date": "2026-11-04",
-      "close": 13.85,
-      "preclose": 13.86,
+      "date": "2026-11-05",
+      "close": 13.88,
+      "preclose": 13.85,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603230": {
-      "date": "2026-11-04",
-      "close": 10.39,
-      "preclose": 10.23,
+      "date": "2026-11-05",
+      "close": 10.81,
+      "preclose": 10.39,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603328": {
-      "date": "2026-11-04",
-      "close": 10.3,
-      "preclose": 9.88,
+      "date": "2026-11-05",
+      "close": 10.29,
+      "preclose": 10.3,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603505": {
-      "date": "2026-11-04",
-      "close": 12.12,
-      "preclose": 11.87,
+      "date": "2026-11-05",
+      "close": 12.52,
+      "preclose": 12.12,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603650": {
-      "date": "2026-11-04",
-      "close": 45.98,
-      "preclose": 41.92,
+      "date": "2026-11-05",
+      "close": 47.52,
+      "preclose": 45.98,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603733": {
-      "date": "2026-11-04",
-      "close": 16.0,
-      "preclose": 15.92,
+      "date": "2026-11-05",
+      "close": 16.15,
+      "preclose": 16.0,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603738": {
-      "date": "2026-11-04",
-      "close": 24.95,
-      "preclose": 23.33,
+      "date": "2026-11-05",
+      "close": 25.5,
+      "preclose": 24.95,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603800": {
-      "date": "2026-11-04",
-      "close": 36.4,
-      "preclose": 34.0,
+      "date": "2026-11-05",
+      "close": 37.0,
+      "preclose": 36.4,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.603936": {
-      "date": "2026-11-04",
-      "close": 12.8,
-      "preclose": 12.02,
+      "date": "2026-11-05",
+      "close": 12.94,
+      "preclose": 12.8,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sh.605376": {
-      "date": "2026-11-04",
-      "close": 74.57,
-      "preclose": 67.79,
+      "date": "2026-11-05",
+      "close": 79.28,
+      "preclose": 74.57,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sz.000935": {
-      "date": "2026-11-04",
-      "close": 17.47,
-      "preclose": 17.27,
+      "date": "2026-11-05",
+      "close": 17.71,
+      "preclose": 17.47,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.001267": {
-      "date": "2026-11-04",
-      "close": 23.12,
-      "preclose": 21.41,
+      "date": "2026-11-05",
+      "close": 23.74,
+      "preclose": 23.12,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.001389": {
-      "date": "2026-11-04",
-      "close": 90.23,
-      "preclose": 82.03,
+      "date": "2026-11-05",
+      "close": 89.9,
+      "preclose": 90.23,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sz.002134": {
-      "date": "2026-11-04",
-      "close": 17.05,
-      "preclose": 16.51,
+      "date": "2026-11-05",
+      "close": 17.46,
+      "preclose": 17.05,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002487": {
-      "date": "2026-11-04",
-      "close": 32.42,
-      "preclose": 29.96,
+      "date": "2026-11-05",
+      "close": 34.82,
+      "preclose": 32.42,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002631": {
-      "date": "2026-11-04",
-      "close": 8.17,
-      "preclose": 7.85,
+      "date": "2026-11-05",
+      "close": 8.88,
+      "preclose": 8.17,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002636": {
-      "date": "2026-11-04",
-      "close": 64.41,
-      "preclose": 58.55,
+      "date": "2026-11-05",
+      "close": 65.88,
+      "preclose": 64.41,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sz.002647": {
-      "date": "2026-11-04",
-      "close": 7.11,
-      "preclose": 6.93,
+      "date": "2026-11-05",
+      "close": 7.39,
+      "preclose": 7.11,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002849": {
-      "date": "2026-11-04",
-      "close": 14.2,
-      "preclose": 13.52,
+      "date": "2026-11-05",
+      "close": 14.55,
+      "preclose": 14.2,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002859": {
-      "date": "2026-11-04",
-      "close": 41.49,
-      "preclose": 38.28,
+      "date": "2026-11-05",
+      "close": 41.95,
+      "preclose": 41.49,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002913": {
-      "date": "2026-11-04",
-      "close": 57.3,
-      "preclose": 52.87,
+      "date": "2026-11-05",
+      "close": 55.4,
+      "preclose": 57.3,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002937": {
-      "date": "2026-11-04",
-      "close": 19.34,
-      "preclose": 18.52,
+      "date": "2026-11-05",
+      "close": 19.76,
+      "preclose": 19.34,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002957": {
-      "date": "2026-11-04",
-      "close": 25.67,
-      "preclose": 23.6,
+      "date": "2026-11-05",
+      "close": 26.08,
+      "preclose": 25.67,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.002980": {
-      "date": "2026-11-04",
-      "close": 71.27,
-      "preclose": 64.79,
+      "date": "2026-11-05",
+      "close": 70.32,
+      "preclose": 71.27,
       "isST": 0,
       "tradestatus": 1,
-      "yesterday_limit_up": true
+      "yesterday_limit_up": false
     },
     "sz.002990": {
-      "date": "2026-11-04",
-      "close": 33.29,
-      "preclose": 30.74,
+      "date": "2026-11-05",
+      "close": 34.61,
+      "preclose": 33.29,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
     },
     "sz.003036": {
-      "date": "2026-11-04",
-      "close": 29.8,
-      "preclose": 27.88,
+      "date": "2026-11-05",
+      "close": 30.82,
+      "preclose": 29.8,
       "isST": 0,
       "tradestatus": 1,
       "yesterday_limit_up": false
