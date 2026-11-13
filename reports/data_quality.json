@@ -1,8 +1,8 @@
 {
-  "asof": "2026-11-12",
-  "checked_at": "2026-11-13T10:36:33.661024+08:00",
-  "active": 3195,
-  "fresh": 3195,
+  "asof": "2026-11-13",
+  "checked_at": "2026-11-14T02:21:15.424306+08:00",
+  "active": 3194,
+  "fresh": 3194,
   "coverage": 1.0,
   "failures": [],
   "source": "BaoStock raw daily adjustflag=3",
