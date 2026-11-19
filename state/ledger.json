@@ -504,60 +504,59 @@
       "marks": {
         "sz.003036": {
           "price": 26.44,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.600371": {
           "price": 9.72,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002937": {
           "price": 17.72,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603936": {
           "price": 11.74,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.600127": {
           "price": 7.95,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603650": {
           "price": 49.16,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002957": {
           "price": 23.0,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603124": {
           "price": 66.24,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002859": {
           "price": 36.12,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603052": {
           "price": 32.69,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         }
       },
       "snapshots": {},
       "closed_days": [],
-      "valuation_stale": [
-        "sz.003036",
-        "sh.600371",
-        "sz.002937",
-        "sh.603936",
-        "sh.600127",
-        "sh.603650",
-        "sz.002957",
-        "sh.603124",
-        "sz.002859",
-        "sh.603052"
-      ],
-      "valued_at": "2026-11-19T19:55:44.790006+08:00",
+      "valuation_stale": [],
+      "valued_at": "2026-11-19T23:20:30.255724+08:00",
       "target_budgets": {
         "sz.003036": {
           "code": "sz.003036",
@@ -1405,95 +1404,94 @@
       "marks": {
         "sh.603936": {
           "price": 11.74,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002957": {
           "price": 23.0,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002636": {
           "price": 50.38,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603733": {
           "price": 15.25,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603050": {
           "price": 12.87,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603800": {
           "price": 31.3,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.001267": {
           "price": 19.63,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002937": {
           "price": 17.72,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.003036": {
           "price": 26.44,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002487": {
           "price": 27.62,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.000935": {
           "price": 15.1,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.600869": {
           "price": 12.25,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sz.002849": {
           "price": 12.84,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.605376": {
           "price": 64.37,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603738": {
           "price": 21.48,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603052": {
           "price": 32.69,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         },
         "sh.603505": {
           "price": 11.73,
-          "timestamp": "2026-11-19T15:00:00+08:00"
+          "timestamp": "2026-11-19T15:00:00+08:00",
+          "source": "validated_daily_close"
         }
       },
       "snapshots": {},
       "closed_days": [],
-      "valuation_stale": [
-        "sh.603936",
-        "sz.002957",
-        "sz.002636",
-        "sh.603733",
-        "sh.603050",
-        "sh.603800",
-        "sz.001267",
-        "sz.002937",
-        "sz.003036",
-        "sz.002487",
-        "sz.000935",
-        "sh.600869",
-        "sz.002849",
-        "sh.605376",
-        "sh.603738",
-        "sh.603052",
-        "sh.603505"
-      ],
-      "valued_at": "2026-11-19T19:55:44.790049+08:00",
+      "valuation_stale": [],
+      "valued_at": "2026-11-19T23:20:30.255781+08:00",
       "target_budgets": {
         "sz.001389": {
           "code": "sz.001389",
@@ -1659,7 +1657,7 @@
       "buy_day": "2026-10-29"
     }
   },
-  "status": "BLOCKED 2026-11-19T21:57:23.730387+08:00: RuntimeError: close任务延迟至2026-11-19T21:57:23.725056+08:00，已错过窗口；跳过，不补记成交。",
+  "status": "公开数据准备完成，截至2026-11-19；下个交易日2026-11-20。未产生任何模拟成交。",
   "sessions": {
     "2026-10-29_close": {
       "status": "skipped",
