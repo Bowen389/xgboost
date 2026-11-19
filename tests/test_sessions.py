@@ -7,7 +7,8 @@ class Sessions(unittest.TestCase):
     def test_late_task_preserves_success_and_accounts(self):
         ledger={'accounts':{'a':{'positions':{'stock':100}}},'status':'early success'}
         with patch.object(app,'load',return_value=ledger), patch.object(app,'save') as save, patch.object(app,'now',return_value=datetime(2026,10,29,15,2,tzinfo=app.TZ)), patch.object(app,'valid_inputs') as valid:
-            app.session('open')
+            with self.assertRaisesRegex(RuntimeError,'错过窗口'):
+                app.session('open')
         self.assertEqual(ledger['status'],'early success')
         self.assertEqual(ledger['accounts']['a']['positions'],{'stock':100})
         self.assertEqual(ledger['sessions']['2026-10-29_open']['status'],'skipped')
