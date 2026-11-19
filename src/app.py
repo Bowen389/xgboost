@@ -59,7 +59,7 @@ def prepare():
                 p['reconcile_required']=True
                 p['reconcile_evidence']=gaps[['date','preclose','prior_raw']].to_dict('records')
             p['corporate_checked']=asof
-            a['marks'][code]=dict(price=float(last.close),timestamp=str(last.date)+'T15:00:00+08:00')
+            a['marks'][code]=dict(price=float(last.close),timestamp=str(last.date)+'T15:00:00+08:00',source='validated_daily_close')
     quality=read_json(ROOT/'reports/data_quality.json')
     write_json(ROOT/'state/market.json',dict(asof=asof,next_session=upcoming,calendar=days,quality=quality,symbols=market))
     ledger['status']=f'公开数据准备完成，截至{asof}；下个交易日{upcoming}。未产生任何模拟成交。'
