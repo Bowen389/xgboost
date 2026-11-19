@@ -176,7 +176,7 @@ def session(phase):
         sessions[key]=dict(status='skipped',at=when.isoformat(),message=message)
         save(ledger)
         print(message,flush=True)
-        return
+        raise RuntimeError(message)
     market,plan=valid_inputs(day)
     if market is None:
         ledger['status']=f'{day} 非交易日'
