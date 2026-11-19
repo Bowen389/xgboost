@@ -1,5 +1,6 @@
 """Independent paper accounts. Orders/fills/cash in one atomic ledger."""
 from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING, ROUND_FLOOR
+from datetime import datetime, time
 from .common import CFG, unsafe_name
 
 
@@ -141,7 +142,16 @@ def mark(account,quotes,when):
         elif code not in account['marks']:
             stale.append(code)
         else:
-            stale.append(code)
+            value=account['marks'][code]
+            try:
+                stamp=datetime.fromisoformat(value['timestamp'])
+                valid_close=(value.get('source')=='validated_daily_close'
+                             and stamp.date()==when.date() and when.time().replace(tzinfo=None)>=time(15)
+                             and stamp.hour==15 and value['price']>0)
+            except (KeyError,TypeError,ValueError):
+                valid_close=False
+            if not valid_close:
+                stale.append(code)
     account['nav']=cent(account['cash']+sum(p['quantity']*account['marks'].get(c,{'price':p['cost']/p['quantity']})['price'] for c,p in account['positions'].items()))
     account['valuation_stale']=stale
     account['valued_at']=when.isoformat()
