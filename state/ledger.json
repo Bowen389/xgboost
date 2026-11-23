@@ -1686,7 +1686,7 @@
       "buy_day": "2026-10-29"
     }
   },
-  "status": "BLOCKED 2026-11-23T23:25:28.463882+08:00: RuntimeError: close任务延迟至2026-11-23T23:25:28.460473+08:00，已错过窗口；跳过，不补记成交。",
+  "status": "BLOCKED 2026-11-24T02:30:33.370021+08:00: RuntimeError: BLOCKED: 前一交易日数据不完整或过期 (asof=2026-11-20, expected=2026-11-23)",
   "sessions": {
     "2026-10-29_close": {
       "status": "skipped",
