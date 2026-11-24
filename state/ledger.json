@@ -8,70 +8,70 @@
           "cost": 19202.95,
           "bought_day": "2026-10-29",
           "name": "泰坦股份",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.600371": {
           "quantity": 1900,
           "cost": 18956.87,
           "bought_day": "2026-10-29",
           "name": "万向德农",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002937": {
           "quantity": 900,
           "cost": 18384.7,
           "bought_day": "2026-10-29",
           "name": "兴瑞科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603936": {
           "quantity": 1400,
           "cost": 19610.08,
           "bought_day": "2026-10-29",
           "name": "博敏电子",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.600127": {
           "quantity": 1900,
           "cost": 19258.97,
           "bought_day": "2026-10-29",
           "name": "金健米业",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603650": {
           "quantity": 400,
           "cost": 18989.89,
           "bought_day": "2026-10-29",
           "name": "彤程新材",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002957": {
           "quantity": 700,
           "cost": 19472.03,
           "bought_day": "2026-10-29",
           "name": "科瑞技术",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603124": {
           "quantity": 200,
           "cost": 18407.7,
           "bought_day": "2026-10-29",
           "name": "江南新材",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002859": {
           "quantity": 400,
           "cost": 17737.5,
           "bought_day": "2026-10-29",
           "name": "洁美科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603052": {
           "quantity": 400,
           "cost": 15837.16,
           "bought_day": "2026-10-29",
           "name": "可川科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         }
       },
       "orders": [
@@ -500,56 +500,56 @@
       ],
       "events": [],
       "cycle": "2026-10",
-      "nav": 176008.15,
+      "nav": 176723.15,
       "marks": {
         "sz.003036": {
-          "price": 26.57,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 26.3,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.600371": {
-          "price": 11.5,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 12.02,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002937": {
-          "price": 18.09,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 18.0,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603936": {
-          "price": 11.99,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 11.82,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.600127": {
-          "price": 8.65,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 8.53,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603650": {
-          "price": 48.07,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 48.85,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002957": {
-          "price": 22.74,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 22.76,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603124": {
-          "price": 64.23,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 64.24,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002859": {
-          "price": 34.95,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 34.9,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603052": {
-          "price": 31.5,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 31.82,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         }
       },
@@ -567,7 +567,7 @@
         "sz.002859",
         "sh.603052"
       ],
-      "valued_at": "2026-11-24T05:54:34.126212+08:00",
+      "valued_at": "2026-11-25T04:24:58.166879+08:00",
       "target_budgets": {
         "sz.003036": {
           "code": "sz.003036",
@@ -660,119 +660,119 @@
           "cost": 7005.07,
           "bought_day": "2026-10-29",
           "name": "博敏电子",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002957": {
           "quantity": 200,
           "cost": 5565.06,
           "bought_day": "2026-10-29",
           "name": "科瑞技术",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002636": {
           "quantity": 100,
           "cost": 6139.06,
           "bought_day": "2026-10-29",
           "name": "金安国纪",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603733": {
           "quantity": 1000,
           "cost": 15569.160000000002,
           "bought_day": "2026-10-29",
           "name": "仙鹤股份",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603050": {
           "quantity": 1100,
           "cost": 15232.15,
           "bought_day": "2026-10-29",
           "name": "科林电气",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603800": {
           "quantity": 200,
           "cost": 7604.08,
           "bought_day": "2026-10-29",
           "name": "洪田股份",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.001267": {
           "quantity": 300,
           "cost": 7541.08,
           "bought_day": "2026-10-29",
           "name": "汇绿生态",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002937": {
           "quantity": 400,
           "cost": 8181.08,
           "bought_day": "2026-10-29",
           "name": "兴瑞科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.003036": {
           "quantity": 200,
           "cost": 6407.06,
           "bought_day": "2026-10-29",
           "name": "泰坦股份",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002487": {
           "quantity": 300,
           "cost": 9275.09,
           "bought_day": "2026-10-29",
           "name": "大金重工",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.000935": {
           "quantity": 900,
           "cost": 15867.16,
           "bought_day": "2026-10-29",
           "name": "四川双马",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.600869": {
           "quantity": 500,
           "cost": 7235.07,
           "bought_day": "2026-10-29",
           "name": "远东股份",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sz.002849": {
           "quantity": 600,
           "cost": 8855.09,
           "bought_day": "2026-10-29",
           "name": "威星智能",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.605376": {
           "quantity": 100,
           "cost": 7958.08,
           "bought_day": "2026-10-29",
           "name": "博迁新材",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603738": {
           "quantity": 300,
           "cost": 7688.08,
           "bought_day": "2026-10-29",
           "name": "泰晶科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603052": {
           "quantity": 200,
           "cost": 7939.08,
           "bought_day": "2026-10-29",
           "name": "可川科技",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         },
         "sh.603505": {
           "quantity": 1300,
           "cost": 15336.15,
           "bought_day": "2026-10-29",
           "name": "金石资源",
-          "corporate_checked": "2026-11-23"
+          "corporate_checked": "2026-11-24"
         }
       },
       "orders": [
@@ -1411,91 +1411,91 @@
       ],
       "events": [],
       "cycle": "2026-10",
-      "nav": 177411.4,
+      "nav": 175818.4,
       "marks": {
         "sh.603936": {
-          "price": 11.99,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 11.82,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002957": {
-          "price": 22.74,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 22.76,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002636": {
-          "price": 52.3,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 50.78,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603733": {
-          "price": 14.7,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 14.31,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603050": {
-          "price": 12.41,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 12.51,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603800": {
-          "price": 30.28,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 30.6,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.001267": {
-          "price": 18.89,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 18.69,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002937": {
-          "price": 18.09,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 18.0,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.003036": {
-          "price": 26.57,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 26.3,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002487": {
-          "price": 26.23,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 25.64,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.000935": {
-          "price": 15.37,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 15.07,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.600869": {
-          "price": 12.15,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 12.0,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sz.002849": {
-          "price": 12.31,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 12.42,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.605376": {
-          "price": 62.56,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 63.48,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603738": {
-          "price": 20.79,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 20.86,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603052": {
-          "price": 31.5,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 31.82,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         },
         "sh.603505": {
-          "price": 11.12,
-          "timestamp": "2026-11-23T15:00:00+08:00",
+          "price": 10.57,
+          "timestamp": "2026-11-24T15:00:00+08:00",
           "source": "validated_daily_close"
         }
       },
@@ -1520,7 +1520,7 @@
         "sh.603052",
         "sh.603505"
       ],
-      "valued_at": "2026-11-24T05:54:34.126255+08:00",
+      "valued_at": "2026-11-25T04:24:58.166932+08:00",
       "target_budgets": {
         "sz.001389": {
           "code": "sz.001389",
@@ -1686,7 +1686,7 @@
       "buy_day": "2026-10-29"
     }
   },
-  "status": "BLOCKED 2026-11-25T01:58:19.910094+08:00: RuntimeError: BLOCKED: 前一交易日数据不完整或过期 (asof=2026-11-23, expected=2026-11-24)",
+  "status": "公开数据准备完成，截至2026-11-24；下个交易日2026-11-25。未产生任何模拟成交。",
   "sessions": {
     "2026-10-29_close": {
       "status": "skipped",
